@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TensorflowPod"
-  s.version      = "1.4.0"
+  s.version      = "v1.4.0-hotfix"
   s.summary      = "Cocoapod based on Tensorflow (unofficial)"
   s.homepage     = "https://github.com/rainbean/TensorflowPod"
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :http => "https://github.com/rainbean/TensorflowPod/releases/download/v#{s.version}/tensorflow.tar.gz" }
+  s.source = { :http => "https://github.com/tomergafner/TensorflowPod/releases/download/v#{s.version}/tensorflow.tar.gz" }
   s.preserve_paths = "include/**"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
